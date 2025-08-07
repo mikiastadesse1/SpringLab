@@ -5,4 +5,7 @@
     <mapping directory="$PROJECT_DIR$/spring-configuration" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-configuration/SpringLab" vcs="Git" />
   </component>
+  <component name="VcsProjectSettings">
+    <option name="detectVcsMappingsAutomatically" value="false" />
+  </component>
 </project>
