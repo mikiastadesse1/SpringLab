@@ -8,15 +8,16 @@ repositories {
     mavenCentral()
 }
 
-//  TODO 01: Add the Spring Test framework dependency.
-//  Make sure it is only used during testing.
-//  Save your work.  You may need to restart your IDE to pick up the changes.
+
 
 dependencies {
     // Spring Dependencies 
     implementation "org.springframework:spring-core:6.2.8"  
     implementation 'org.springframework:spring-context:6.2.8'
     
+    // Spring Test framework for testing
+    testImplementation "org.springframework:spring-test:6.2.8"
+
     // AssertJ for testing  
     testImplementation "org.assertj:assertj-core:3.11.1"    
         
