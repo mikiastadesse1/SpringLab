@@ -8,8 +8,6 @@ repositories {
     mavenCentral()
 }
 
-//  TODO-01: Notice the dependencies for AspectJ, Spring AOP, and Spring Aspects:
-
 dependencies {
     implementation 'org.aspectj:aspectjweaver:1.9.7'
     implementation 'org.springframework:spring-aop:6.2.8'
