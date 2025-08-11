@@ -55,7 +55,6 @@ public class PurchaseDaoImplTests {
         assertThat(saved).isNotNull();
         assertThat(saved.getCustomerName()).isEqualTo("Sample");
         assertThat(saved.getProduct()).isEqualTo("Sample Product");
-        // Fix: compare time values to avoid Date vs Timestamp equality issue
         assertThat(saved.getPurchaseDate().getTime()).isEqualTo(now.getTime());
     }
 
